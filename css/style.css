@@ -25,7 +25,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #f8f9fa;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -9703,3 +9703,24 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+  
+  /* ===== Certificates Section Font Size Adjustments ===== */
+#certificates .resume-wrap h2 {
+  font-size: 1rem;   /* Title font smaller */
+}
+
+#certificates .resume-wrap .position,
+#certificates .resume-wrap .date {
+  font-size: 0.9rem; /* Subtitle & date smaller */
+}
+
+#home-section.hero {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#about-section {
+  padding-top: 0;
+  margin-top: 0;
+}
